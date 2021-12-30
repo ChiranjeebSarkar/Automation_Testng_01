@@ -12,5 +12,6 @@ public class OrangeHRMLoginTest extends BaseTest{
 	  WebDriver driver = getDriver();
 	  OrangeHRMLoginPage loginPage = new OrangeHRMLoginPage(driver);
 	  loginPage.login();
+	  System.out.println(" Hi testing for git push");
   }
 }
