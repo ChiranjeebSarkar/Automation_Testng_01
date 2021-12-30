@@ -13,5 +13,6 @@ public class OrangeHRMLoginTest extends BaseTest{
 	  OrangeHRMLoginPage loginPage = new OrangeHRMLoginPage(driver);
 	  loginPage.login();
 	  System.out.println(" Hi testing for git push");
+	  System.out.println(" Hi testing for git pull");
   }
 }
