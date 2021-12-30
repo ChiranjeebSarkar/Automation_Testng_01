@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<!--To run tests from TestNg we need to add this listners and in line number 10 we need to add the name of the testng class following 
+the below format  -->
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Test">
+  <!-- Mentioning the Testng class that is to be run  -->
+    <classes>
+      <class name="com.sportchek.tests.NewTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

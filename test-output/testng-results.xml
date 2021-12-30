@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-19T09:44:14Z" name="Default suite" finished-at="2021-12-19T09:44:31Z" duration-ms="16663">
+  <suite started-at="2021-12-30T05:04:05Z" name="Default suite" finished-at="2021-12-30T05:04:17Z" duration-ms="12602">
     <groups>
     </groups>
-    <test started-at="2021-12-19T09:44:14Z" name="Default test" finished-at="2021-12-19T09:44:31Z" duration-ms="16663">
-      <class name="OrangeHRMTests">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:OrangeHRMTests@78aa1f72]" started-at="2021-12-19T09:44:14Z" name="beforeClass" finished-at="2021-12-19T09:44:24Z" duration-ms="9598" status="PASS">
+    <test started-at="2021-12-30T05:04:05Z" name="Default test" finished-at="2021-12-30T05:04:17Z" duration-ms="12602">
+      <class name="DDTJson.DDTTestusingjson">
+        <test-method is-config="true" signature="setup()[pri:0, instance:DDTJson.DDTTestusingjson@7e19ebf0]" started-at="2021-12-30T05:04:05Z" name="setup" finished-at="2021-12-30T05:04:10Z" duration-ms="5202" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method signature="Test1()[pri:0, instance:OrangeHRMTests@78aa1f72]" started-at="2021-12-19T09:44:24Z" name="Test1" finished-at="2021-12-19T09:44:29Z" duration-ms="4891" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:DDTJson.DDTTestusingjson@7e19ebf0]" started-at="2021-12-30T05:04:10Z" name="login" data-provider="dp" finished-at="2021-12-30T05:04:13Z" duration-ms="3126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JSON_pavanoltraining@gmail.com,Test@123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:OrangeHRMTests@78aa1f72]" started-at="2021-12-19T09:44:29Z" name="afterClass" finished-at="2021-12-19T09:44:31Z" duration-ms="2137" status="PASS">
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:DDTJson.DDTTestusingjson@7e19ebf0]" started-at="2021-12-30T05:04:13Z" name="login" data-provider="dp" finished-at="2021-12-30T05:04:15Z" duration-ms="2047" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JSON_Kiranltraining@gmail.com,Test@12]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- OrangeHRMTests -->
+        </test-method> <!-- login -->
+        <test-method signature="login(java.lang.String)[pri:0, instance:DDTJson.DDTTestusingjson@7e19ebf0]" started-at="2021-12-30T05:04:15Z" name="login" data-provider="dp" finished-at="2021-12-30T05:04:17Z" duration-ms="1936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JSON_Madantraining@gmail.com,Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:DDTJson.DDTTestusingjson@7e19ebf0]" started-at="2021-12-30T05:04:17Z" name="tearDown" finished-at="2021-12-30T05:04:17Z" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DDTJson.DDTTestusingjson -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
