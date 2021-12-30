@@ -14,5 +14,7 @@ public class OrangeHRMLoginTest extends BaseTest{
 	  loginPage.login();
 	  System.out.println(" Hi testing for git push");
 	  System.out.println(" Hi testing for git pull");
+	  System.out.println("Hi testing merging of branch");
+	  
   }
 }
